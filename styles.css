@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica', sans-serif;
+}
+
+body {
+    background-color: #fafafa;
+    color: #3a2d28;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    background-color: #2d231f; 
+    color: #fafafa; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fafafa;
+    font-weight: bold;
+    font-size: 1.1rem;
+} */
+
+section {
+    padding: 60px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-text {
+    flex: 1;
+    margin-right: 50px;
+}
+
+.about-text h2 {
+    margin-bottom: 20px;
+    font-size: xx-large;
+}
+
+.about-text p {
+    margin-top: 0px;
+    font-size: large;
+}
+
+.about-image {
+    position: relative;
+    width: 220px; /* The box width */
+    height: 220px; /* Shorter height to create the popping effect */
+    background-color: #d1c7bd; /* Your desired background color */
+    border-radius: 15px; /* Rounded corners */
+    margin-top: 50px; /* Adjust to your design */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+}
+
+.about-image img {
+    position: absolute;
+    bottom: 0; /* Aligns the bottom of the image with the box */
+    left: 50%;
+    transform: translateX(-50%); /* Centers the image horizontally */
+    width: 100%; /* Image width, can adjust based on preference */
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+
+/* .about-image img {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+} */
+
+.skills {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.skills li {
+    padding: 10px 20px;
+    background-color: #d1c7bd;
+    color: #3a2d28;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+section {
+    padding: 60px 0;
+}
+
+#about {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#projects {
+    padding-top: 0; 
+}
+
+.container h2{
+    font-size: 200%;
+    padding-bottom: 1%;
+}
+
+.projects .project-list {
+    display: grid;
+    gap: 50px;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.project:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.project-image img {
+    width: 300px;
+    border-radius: 15px;
+}
+
+.project-info {
+    flex: 1;
+}
+
+.project-info h3 {
+    font-size: 1.8rem;
+    color: #3a2d28; /* Dark brown for project titles */
+}
+
+.project-info p {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: #3a2d28; /* Light brown for project descriptions */
+}
+
+.project-link {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #3a2d28; /* Dark brown background for the link */
+    color: #fafafa; /* Light gray text color for the link */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px; /* Adding some padding to make the box look better */
+    border-radius: 5px; /* Optional: rounded corners */
+    transition: background-color 0.3s; /* Optional: smooth transition on hover */
+}
+
+.project-link:hover {
+    background-color: #2a1d18; /* Slightly darker brown on hover */
+    text-decoration: none; /* Keeping text decoration consistent */
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer h2 {
+    margin: 0 0 20px 0;
+}
+
+footer .social-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer .social-links li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+footer .social-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+footer .social-links li a i {
+    margin-right: 8px;
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #aaa;
+}
+
+
+
+/* .contact .social-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.contact .social-links li a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #3a2d28;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2d231f;
+    color: #fafafa;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+} */

@@ -100,25 +100,24 @@ section {
 
 .about-image {
     position: relative;
-    width: 220px; /* The box width */
-    height: 220px; /* Shorter height to create the popping effect */
-    background-color: #d1c7bd; /* Your desired background color */
-    border-radius: 15px; /* Rounded corners */
-    margin-top: 50px; /* Adjust to your design */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+    width: 220px;
+    height: 220px; 
+    background-color: #d1c7bd; 
+    border-radius: 15px; 
+    margin-top: 50px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .about-image img {
     position: absolute;
-    bottom: 0; /* Aligns the bottom of the image with the box */
+    bottom: 0;
     left: 50%;
-    transform: translateX(-50%); /* Centers the image horizontally */
-    width: 100%; /* Image width, can adjust based on preference */
+    transform: translateX(-50%); 
+    width: 100%; 
     height: auto;
     object-fit: cover;
     border-radius: 15px;
 }
-
 
 /* .about-image img {
     width: 250px;
@@ -186,30 +185,30 @@ section {
 
 .project-info h3 {
     font-size: 1.8rem;
-    color: #3a2d28; /* Dark brown for project titles */
+    color: #3a2d28; 
 }
 
 .project-info p {
     margin-top: 10px;
     font-size: 1.1rem;
-    color: #3a2d28; /* Light brown for project descriptions */
+    color: #3a2d28; 
 }
 
 .project-link {
     display: inline-block;
     margin-top: 15px;
-    background-color: #3a2d28; /* Dark brown background for the link */
-    color: #fafafa; /* Light gray text color for the link */
+    background-color: #3a2d28; 
+    color: #fafafa; 
     text-decoration: none;
     font-weight: bold;
-    padding: 10px 20px; /* Adding some padding to make the box look better */
-    border-radius: 5px; /* Optional: rounded corners */
-    transition: background-color 0.3s; /* Optional: smooth transition on hover */
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
 }
 
 .project-link:hover {
-    background-color: #2a1d18; /* Slightly darker brown on hover */
-    text-decoration: none; /* Keeping text decoration consistent */
+    background-color: #2a1d18; 
+    text-decoration: none; 
 }
 
 /* Footer Section */
